@@ -48,8 +48,9 @@ export default function Intro() {
           </motion.span>
         </div>
       </div>
-      <motion.p
-        className="mb-100 ml-4 px-4 text-2xl font-medium !leading-[1,5] sm:text-4xl"
+
+      <motion.h1
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1,5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -59,7 +60,8 @@ export default function Intro() {
         building{' '}
         <span className="italic">sites, desktop apps & mobile apps</span>. My
         focus is <span className="underline">React (Next.js)</span>
-      </motion.p>
+      </motion.h1>
+
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
@@ -75,6 +77,7 @@ export default function Intro() {
           Contact Me Here
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
+
         <a
           className="group  bg-white px-7 py-3 flex items-center gap-2 rounded-full
           outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border border-black/10"
